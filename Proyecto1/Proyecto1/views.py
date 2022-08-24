@@ -29,4 +29,4 @@ def probandoHtml(request):
     plantilla = Template(contenido) #Lo importe. es una clase 
     contexto = Context() #Aca voy a mandarle datos a partir de la proxima clase del curso. por ahora va vacio
     documento = plantilla.render(contexto)
-    return HttpResponse(documento) 
+    return HttpResponse(documento) #agrego comentario para una prueba commit
