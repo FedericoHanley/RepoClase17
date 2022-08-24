@@ -26,3 +26,5 @@ urlpatterns = [
     path ('nacimiento/<edad>', calcula_nacimiento),
     path ('probandoHtml/', probandoHtml),
 ] 
+
+
