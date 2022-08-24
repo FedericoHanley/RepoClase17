@@ -25,4 +25,4 @@ urlpatterns = [
     path ('holanombre/<nombre>', saludo_nombre),
     path ('nacimiento/<edad>', calcula_nacimiento),
     path ('probandoHtml/', probandoHtml),
-]
+] 
